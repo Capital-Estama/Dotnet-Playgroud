@@ -1,0 +1,15 @@
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/bin/Debug/net6.0/collectionsPractice
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/bin/Debug/net6.0/collectionsPractice.deps.json
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/bin/Debug/net6.0/collectionsPractice.runtimeconfig.json
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/bin/Debug/net6.0/collectionsPractice.dll
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/bin/Debug/net6.0/collectionsPractice.pdb
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/obj/Debug/net6.0/collectionsPractice.csproj.AssemblyReference.cache
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/obj/Debug/net6.0/collectionsPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/obj/Debug/net6.0/collectionsPractice.AssemblyInfoInputs.cache
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/obj/Debug/net6.0/collectionsPractice.AssemblyInfo.cs
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/obj/Debug/net6.0/collectionsPractice.csproj.CoreCompileInputs.cache
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/obj/Debug/net6.0/collectionsPractice.dll
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/obj/Debug/net6.0/refint/collectionsPractice.dll
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/obj/Debug/net6.0/collectionsPractice.pdb
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/obj/Debug/net6.0/collectionsPractice.genruntimeconfig.cache
+/Users/wesest/Documents/Dojo/Dotnet/collectionsPractice/obj/Debug/net6.0/ref/collectionsPractice.dll

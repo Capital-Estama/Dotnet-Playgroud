@@ -1,0 +1,15 @@
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/obj/Debug/net6.0/Fundamentals_I.csproj.AssemblyReference.cache
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/obj/Debug/net6.0/Fundamentals_I.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/obj/Debug/net6.0/Fundamentals_I.AssemblyInfoInputs.cache
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/obj/Debug/net6.0/Fundamentals_I.AssemblyInfo.cs
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/obj/Debug/net6.0/Fundamentals_I.csproj.CoreCompileInputs.cache
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/bin/Debug/net6.0/Fundamentals_I
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/bin/Debug/net6.0/Fundamentals_I.deps.json
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/bin/Debug/net6.0/Fundamentals_I.runtimeconfig.json
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/bin/Debug/net6.0/Fundamentals_I.dll
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/bin/Debug/net6.0/Fundamentals_I.pdb
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/obj/Debug/net6.0/Fundamentals_I.dll
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/obj/Debug/net6.0/refint/Fundamentals_I.dll
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/obj/Debug/net6.0/Fundamentals_I.pdb
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/obj/Debug/net6.0/Fundamentals_I.genruntimeconfig.cache
+/Users/wesest/Documents/Dojo/Dotnet/Fundamentals_I/obj/Debug/net6.0/ref/Fundamentals_I.dll
