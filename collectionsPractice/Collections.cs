@@ -1,5 +1,5 @@
 using System;
-using System.Collections;
+using System.Collections.Generic;
 
 namespace collectionsPractice
 {
@@ -9,14 +9,19 @@ namespace collectionsPractice
         public int[] simpleIntArr;
         public string[] names;
         public string[] truth;
-        public List<string> iceCream ;
+        public List<string> iceCream;
+        public Dictionary<string,string> blend;
         public Collections()
+       
         {
             // constructor
             simpleIntArr = new int[] {0,1,2,3,4,5,6,7,8,9};
             names = new string[] {"Tim", "Martin", "Nikki", "Sara"};
             truth = new string[10];
             iceCream = new List<string>();
+            blend = new Dictionary<string,string>();
+
+
 
         }
         //Three Basic Arrays
@@ -32,7 +37,7 @@ namespace collectionsPractice
         }
         // Create an array of the names "Tim", "Martin", "Nikki", & "Sara"
 
-        public void PrintStringArr()
+        public void PrintStringArr()    
         {
             Console.WriteLine(" array of the names Tim, Martin, Nikki, & Sara \n");
             foreach (string name in names)
@@ -69,7 +74,7 @@ namespace collectionsPractice
             for (int i = 0; i <= 5; i++)
             {
                 Console.WriteLine("\nAdd ONE Ice cream flavor \n then Press [Enter].. ");
-                string? line = Console.ReadLine();
+                string line = Console.ReadLine();
                 iceCream.Add(line); 
                 Console.Clear();
             }
@@ -78,7 +83,7 @@ namespace collectionsPractice
                 Console.WriteLine(flav);
             }
             // Output the length of this list after building it
-            Console.WriteLine("the Length of Ice Cream list is: " + iceCream.Count());
+            Console.WriteLine("the Length of Ice Cream list is: " + iceCream.Count );
             // Console.WriteLine("Enter number Between 0-5");
             // int? index = (int)Console.ReadKey();
             // int Bowl; // Variable to hold number
@@ -100,7 +105,7 @@ namespace collectionsPractice
             Console.WriteLine("Press Enter to continue...");
             Console.ReadLine();
             Console.Clear();
-            Console.WriteLine("the new Length of Ice Cream list is: " + iceCream.Count());
+            Console.WriteLine("the new Length of Ice Cream list is: " + iceCream.Count);
 
         }
         
@@ -111,5 +116,20 @@ namespace collectionsPractice
         // each key is a name from your names array
         // each value is a randomly elected flavor from your flavors list.
         // Loop through the dictionary and print out each user's name and their associated ice cream flavor
+        public void UserBlend()
+        {
+            Random rand = new Random();
+            foreach (string name in names)
+            {
+                blend.Add(name,iceCream[rand.Next(0 , iceCream.Count - 1)]);    
+            }
+            //Print the Dictionary
+            foreach (var pair in blend)
+            {
+                Console.WriteLine($"{pair.Key} really likes the {pair.Value} flavor.");
+            }   
+        }
+
+        
     }
 }

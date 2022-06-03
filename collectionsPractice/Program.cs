@@ -11,6 +11,7 @@ namespace collectionsPractice
             boxes.PrintStringArr();
             boxes.PrintTruth();
             boxes.Flavors();
+            boxes.UserBlend();
             
         }
     }
