@@ -1,0 +1,15 @@
+/Users/wesest/Documents/Dojo/Dotnet/Human/bin/Debug/net6.0/Human
+/Users/wesest/Documents/Dojo/Dotnet/Human/bin/Debug/net6.0/Human.deps.json
+/Users/wesest/Documents/Dojo/Dotnet/Human/bin/Debug/net6.0/Human.runtimeconfig.json
+/Users/wesest/Documents/Dojo/Dotnet/Human/bin/Debug/net6.0/Human.dll
+/Users/wesest/Documents/Dojo/Dotnet/Human/bin/Debug/net6.0/Human.pdb
+/Users/wesest/Documents/Dojo/Dotnet/Human/obj/Debug/net6.0/Human.csproj.AssemblyReference.cache
+/Users/wesest/Documents/Dojo/Dotnet/Human/obj/Debug/net6.0/Human.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wesest/Documents/Dojo/Dotnet/Human/obj/Debug/net6.0/Human.AssemblyInfoInputs.cache
+/Users/wesest/Documents/Dojo/Dotnet/Human/obj/Debug/net6.0/Human.AssemblyInfo.cs
+/Users/wesest/Documents/Dojo/Dotnet/Human/obj/Debug/net6.0/Human.csproj.CoreCompileInputs.cache
+/Users/wesest/Documents/Dojo/Dotnet/Human/obj/Debug/net6.0/Human.dll
+/Users/wesest/Documents/Dojo/Dotnet/Human/obj/Debug/net6.0/refint/Human.dll
+/Users/wesest/Documents/Dojo/Dotnet/Human/obj/Debug/net6.0/Human.pdb
+/Users/wesest/Documents/Dojo/Dotnet/Human/obj/Debug/net6.0/Human.genruntimeconfig.cache
+/Users/wesest/Documents/Dojo/Dotnet/Human/obj/Debug/net6.0/ref/Human.dll
