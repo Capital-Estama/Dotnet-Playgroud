@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Succes";
+}
+@model DojoSurvey.Models.User 
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>Your Name: </h2>
+    </div>
+    <div class="col">
+      <h2>-</h2>
+    </div>
+    <div class="col">
+      <h2>@Model.Name</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h2>Dojo Location: </h2>
+    </div>
+    <div class="col">
+      <h2>-</h2>
+    </div>
+    <div class="col">
+      <h2>@Model.Location</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h2>Favorite Language: </h2>
+    </div>
+    <div class="col">
+      <h2>-</h2>
+    </div>
+    <div class="col">
+      <h2>@Model.Lang</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h2>Comments: </h2>
+    </div>
+    <div class="col">
+      <h2>-</h2>
+    </div>
+    <div class="col">
+      <h2>@Model.Comments</h2>
+    </div>
+  </div>
+</div>
+
