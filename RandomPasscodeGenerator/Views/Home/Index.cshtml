@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using Microsoft.AspNetCore.Http
+
+
+
+<div class="text-center">
+    <div> <h1>Random Passcode (passcode #@Context.Session.GetInt32("Counter"))</h1></div>
+    <div class="mb-3">
+      <input type="text" id="disabledTextInput" class="form-control text-center fs-3" placeholder="@ViewBag.passcode">
+      <input class="btn btn-primary"type="button" onclick="window.location.href='/Generate';" value="Generate" />
+      <input class="btn btn-danger" type="button" onclick="window.location.href='/Clear';" value="Clear" />
+
+    </div>
+</div>
+
