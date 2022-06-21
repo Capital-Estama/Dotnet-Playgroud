@@ -1,0 +1,15 @@
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/bin/Debug/net6.0/LINQ_Eruption!
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/bin/Debug/net6.0/LINQ_Eruption!.deps.json
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/bin/Debug/net6.0/LINQ_Eruption!.runtimeconfig.json
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/bin/Debug/net6.0/LINQ_Eruption!.dll
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/bin/Debug/net6.0/LINQ_Eruption!.pdb
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/obj/Debug/net6.0/LINQ_Eruption!.csproj.AssemblyReference.cache
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/obj/Debug/net6.0/LINQ_Eruption!.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/obj/Debug/net6.0/LINQ_Eruption!.AssemblyInfoInputs.cache
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/obj/Debug/net6.0/LINQ_Eruption!.AssemblyInfo.cs
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/obj/Debug/net6.0/LINQ_Eruption!.csproj.CoreCompileInputs.cache
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/obj/Debug/net6.0/LINQ_Eruption!.dll
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/obj/Debug/net6.0/refint/LINQ_Eruption!.dll
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/obj/Debug/net6.0/LINQ_Eruption!.pdb
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/obj/Debug/net6.0/LINQ_Eruption!.genruntimeconfig.cache
+/Users/wesest/Documents/Dojo/Dotnet/LINQ_Eruption!/obj/Debug/net6.0/ref/LINQ_Eruption!.dll
