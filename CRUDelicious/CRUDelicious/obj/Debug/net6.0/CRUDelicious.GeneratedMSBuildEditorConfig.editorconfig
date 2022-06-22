@@ -15,12 +15,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/wesest/Documents/Dojo/Dotnet/CRUDelicious/CRUDelicious
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/wesest/Documents/Dojo/Dotnet/CRUDelicious/CRUDelicious/Views/Home/Dish.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EaXNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wesest/Documents/Dojo/Dotnet/CRUDelicious/CRUDelicious/Views/Home/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ib21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/wesest/Documents/Dojo/Dotnet/CRUDelicious/CRUDelicious/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/wesest/Documents/Dojo/Dotnet/CRUDelicious/CRUDelicious/Views/Home/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9OZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/wesest/Documents/Dojo/Dotnet/CRUDelicious/CRUDelicious/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wesest/Documents/Dojo/Dotnet/CRUDelicious/CRUDelicious/Views/Home/UpdateForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9VcGRhdGVGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wesest/Documents/Dojo/Dotnet/CRUDelicious/CRUDelicious/Views/Home/UpdateFrom.Old.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9VcGRhdGVGcm9tLk9sZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/wesest/Documents/Dojo/Dotnet/CRUDelicious/CRUDelicious/Views/Shared/Error.cshtml]

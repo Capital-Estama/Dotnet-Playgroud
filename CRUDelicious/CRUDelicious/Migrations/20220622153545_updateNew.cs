@@ -4,7 +4,7 @@
 
 namespace CRUDelicious.Migrations
 {
-    public partial class firstMigrationCRUD1 : Migration
+    public partial class updateNew : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

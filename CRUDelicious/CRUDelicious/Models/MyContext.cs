@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-namespace Dishes.Models;
+namespace CRUDelicious.Models;
 
     
     

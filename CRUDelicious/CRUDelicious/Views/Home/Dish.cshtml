@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Dish";
+}
+
+<div class="text-center">
+    <h1>@ViewBag.SingleDish.Name</h1>
+</div>
+<div class="text-center">
+    <h3>@ViewBag.SingleDish.Chef</h3>
+</div>
+<div class="text-center">
+    <h1>___________________________</h1>
+</div>
+<div class="text-center">
+    <h1>@ViewBag.SingleDish.Description</h1>
+</div>
+<div class="text-center">
+    <h3>Calories:@ViewBag.SingleDish.Calories</h3>
+</div>
+<div class="text-center text-danger">
+    <h3>Tastiness:@ViewBag.SingleDish.Tastiness</h3>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <button ><a href="/delete/@ViewBag.SingleDish.Dishid">Delete</a></button>
+        </div>
+        <div class="col">
+            <button><a href="/updateform/@ViewBag.SingleDish.Dishid">Edit</a></button>
+        </div>
+    </div>
+
+

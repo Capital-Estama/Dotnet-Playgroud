@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "New";
+}
+
+@model Dish
+
+<div class="text-center">
+    <h1 class="display-4">Add New Dish</h1>
+</div>
+<div class="text-md-left">
+    <a href="\home">Home</a>
+</div>
+<form action="/update/@ViewBag.uDish.Dishid" method="post">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="Chef">Chef's Name</label>
+                    <input asp-for="Chef" placeholder="@ViewBag.uDish.Chef"/>
+                    <span asp-validation-for="Chef" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>Name of Dish</label>
+                    <input asp-for="Name" placeholder="@ViewBag.uDish.Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+
+                </div>
+                <div class="form-group">
+                    <label># of Calories</label>
+                    <input asp-for="Calories" placeholder="@ViewBag.uDish.Calories"/>
+                    <span asp-validation-for="Calories" class="text-danger"></span>
+
+                </div>
+
+
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="Tastiness">Tastiness</label>
+                    <select class="form-control" asp-for="Tastiness" placeholder="@ViewBag.uDish.Tastiness">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    <span asp-validation-for="Tastiness" class="text-danger"></span>
+
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="Description">Description</label>
+                    <textarea class="form-control" asp-for="Description" rows="3" placeholder="@ViewBag.uDish.Description" ></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                    <input type="submit" class="btn btn-primary mb-2" value="Edit Dish" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
