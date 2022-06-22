@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{37573BA3-5CB0-442A-902C-24CCEE0D7D57}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CRUDelicious/Models/MyContext.cs">
+    <Files>
+      <File FileName="CRUDelicious/Program.cs" Line="14" Column="4" />
+      <File FileName="CRUDelicious/appsettings.json" Line="10" Column="88" />
+      <File FileName="CRUDelicious/Models/EmptyClass.cs" Line="3" Column="18" />
+      <File FileName="CRUDelicious/Models/EmptyClass.cs" Line="16" Column="1" />
+      <File FileName="CRUDelicious/Controllers/HomeController.cs" Line="5" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CRUDelicious" expanded="True">
+            <Node name="CRUDelicious" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="MyContext.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CRUDelicious PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
