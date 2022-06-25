@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row ">
+    <div class="col-8 text-center display-4">Chefs |    <a href="/dishes">Dishes</a></div>
+    <div class="col-4 text-right"><a href="/new">Add a Chef</a></div>
+</div>
+
+<div class="d-flex p-2 align-items-center"> <h2>Check out our roster of Chefs!</h2> </div>
+<table class="table table-striped table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col"># Of Dishes</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ foreach (Chef i in @Model)
+            {
+                var age = DateTime.Today.Year - i.Birthdate.Year;
+                <tr>
+                    <td>@i.FirstName @i.LastName</td>
+                    <td>@age </td>
+                    <td>@i.Dishes.Count </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

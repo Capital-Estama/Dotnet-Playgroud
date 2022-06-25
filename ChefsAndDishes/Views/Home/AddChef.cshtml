@@ -1,0 +1,54 @@
+﻿@model Chef
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+               
+            </div>
+            <div class="col-6 display-4">
+                Add a Chef!
+            </div>
+            <div class="col">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a href="/">Home</a>
+            </div>
+            <div class="col-5">
+                
+            </div>
+            <div class="col">
+                
+            </div>
+        </div>
+    </div>
+    <form action="/newChefProc" method="post"> 
+    <div class="row">
+        <div class="col-sm">
+            <div>
+                <label asp-for="FirstName" class="control-label">First Name</label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="LastName" class="control-label">Last Name</label>
+                <input asp-for="LastName"  class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div>
+                <label asp-for="Birthdate" class="control-label">Birthdate</label>
+                <input asp-for="Birthdate" type="date" class="form-control" />
+                <span asp-validation-for="Birthdate" class="text-danger"></span>
+            </div>
+            <div>
+                <input type="submit" class="btn btn-primary" />
+                
+            </div>
+        </div>
+        <div class="col-sm"></div>
+    </div>
+    </form>
