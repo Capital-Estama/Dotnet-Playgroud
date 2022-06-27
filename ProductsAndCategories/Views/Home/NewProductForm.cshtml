@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Products";
+}
+@model Product  
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p class="text-right display-4">Products |</p> 
+        </div>
+        <div class="col text-left">
+            <a href="/category"> Categories</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div>
+                    <h1>New Product</h1>
+                </div>
+                <form action="/products/new" method="post">
+                    <div>
+                        <label asp-for="Name" class="control-label">Name</label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div>
+                        <label asp-for="Description">Description</label>
+                        <input asp-for="Description" class="form-control"/>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div>
+                        <label asp-for="Price">Price</label>
+                        <input asp-for="Price" class="form-control" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                    <div class="m-3">
+                        <input type="submit" class="btn btn-primary" value="Create" />
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="col">
+                <div>
+                    <h1 class="display-3">Existing Products</h1>
+                </div>
+                <div>
+                    <ul class="list-group">
+                        @{ foreach (Product i in ViewBag.products)
+                            {
+                        <li class="list-group-item "><a href="/product/@i.ProductID" class="h4">@i.Name</a></li>
+                            }
+                         }
+                    </ul>
+                </div>
+            </div>
+        </div>
+

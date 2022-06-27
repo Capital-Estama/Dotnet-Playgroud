@@ -1,0 +1,37 @@
+﻿@model Association
+
+<h1 class="text-center display-4">@ViewBag.SingleCategory.Name</h1>
+<div class="container m-3">
+    <div class="row">
+        <div class="col">
+            <div><h3>Products</h3></div>
+            <div>
+                <ul class="list-group list-group-flush">
+                    @foreach (Association product  in @ViewBag.SingleCategory.Products)
+                    {
+                        <li class="list-group-item">@product.Product.Name </li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            @*<div><h4>Add Categories</h4></div>*@
+            <form action="/ProductProcAssociation" method="post">
+                <div>
+                    <input type="hidden" asp-for="CategoryID" value="@ViewBag.SingleCategory.CategoryID">
+                </div>
+                <div>
+                    <label asp-for="ProductID" class="control-label">Add Product</label>
+                    <select asp-for="ProductID" class="form-control">
+                        @foreach (Product i in ViewBag.NegProducts)
+                        {
+                            <option value="@i.ProductID">@i.Name </option>
+                        }
+                    </select>
+                    <div class="m-3">
+                        <input type="submit" class="btn btn-warning" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
