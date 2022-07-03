@@ -1,0 +1,43 @@
+﻿@model Wedding
+<div class="row">
+    <div class="col-sm-8"><h1 class="display-4">Plan Your Wedding </h1></div>
+    <div class="col-sm-2"><a href="/Dashboard">Dasboard</a></div>
+    <div class="col-sm-2"><a href="/logout">Logout</a></div>
+</div>
+     <div class="row">
+         <div class="col-sm-8">
+             <form action="/Create/wedding" method="post">
+                 <div>
+                     <label asp-for="WedderOne" class="label-control">Wedder One</label>
+                     <input asp-for="WedderOne" class="form-control" />
+                     <span asp-validation-for="WedderOne" class="text-danger"></span>
+                 </div>
+                 <div>
+                     <label asp-for="WedderTwo" class="label-control">Wedder Two</label>
+                     <input asp-for="WedderTwo" class="form-control" />
+                     <span asp-validation-for="WedderTwo" class="text-danger"></span>
+                 </div>
+                 <div>
+                     <label asp-for="Date" class="label-control">Date</label>
+                     <input asp-for="Date" class="form-control" />
+                     <span asp-validation-for="Date" class="text-danger"></span>
+                 </div>
+                 <div>
+                     <label asp-for="Address" class="label-control">Wedding Address</label>
+                     <input asp-for="Address" class="form-control" />
+                     <span asp-validation-for="Address" class="text-danger"></span>
+                 </div>
+                 <div>
+                     
+                     <input asp-for="OwnerID" class="form-control" type="hidden" value="@Context.Session.GetInt32("UserId")"/>
+                     <span asp-validation-for="OwnerID" class="text-danger"></span>
+                 </div>
+
+                 <div class="m-3">
+                     <input type="submit" value="Create" />
+                 </div>
+             </form>
+         </div>
+         
+         
+     </div>

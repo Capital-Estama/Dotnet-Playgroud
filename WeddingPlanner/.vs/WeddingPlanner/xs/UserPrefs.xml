@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{383452FF-A07A-4798-B8CA-3D11C68AFFD2}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" Line="86" Column="35" />
+      <File FileName="Models/Association.cs" Line="9" Column="14" />
+      <File FileName="Views/Home/Dashboard.cshtml" Line="32" Column="71" />
+      <File FileName="Models/User.cs" Line="1" Column="1" />
+      <File FileName="Views/Home/OneWedding.cshtml" Line="23" Column="1" />
+      <File FileName="Views/Home/NewWedding.cshtml" Line="32" Column="124" />
+      <File FileName="../ProductsAndCategories/Views/Home/NewCategoryForm.cshtml" Line="12" Column="35" />
+      <File FileName="Models/Wedding.cs" Line="12" Column="28" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WeddingPlanner" expanded="True">
+            <Node name="WeddingPlanner" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WeddingPlanner PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

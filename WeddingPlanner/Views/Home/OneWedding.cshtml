@@ -1,0 +1,22 @@
+﻿@model Wedding
+<div class="row">
+    <div class="col-sm-8"><h1 class="display-4">@Model.WedderTwo & @Model.WedderOne Wedding </h1></div>
+    <div class="col-sm-2"><a href="/Dashboard">Dasboard</a></div>
+    <div class="col-sm-2"><a href="/logout">Logout</a></div>
+</div>
+
+<div class="m-3">
+    @Model.Date
+</div>
+<div>
+    <h2>Guests</h2>
+</div>
+<div>
+    <ul class="list-group">
+        @foreach (var i in @Model.Guests)
+        {
+        <li class="list-group-item">@i.User.FirstName @i.User.LastName</li>
+        }
+    </ul>
+ </div>
+

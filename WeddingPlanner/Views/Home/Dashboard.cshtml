@@ -1,0 +1,47 @@
+﻿@model List<Wedding>
+
+<div class="row">
+    <div class="col-sm-8"><h1 class="display-4">Welcome to the Wedding Planner</h1></div>
+    <div class="col-sm-4"><a href="/logout">Logout</a></div>
+</div>
+
+<table class="table table-striped table-info">
+    <thead>
+        <tr>
+            <th scope="col">Wedding</th>
+            <th scope="col">Date</th>
+            <th scope="col">Guest</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+            {
+        <tr>
+            <td><a href="/wedding/@i.WeddingID">@i.WedderOne & @i.WedderTwo</a></td>
+            <td>@i.Date</td>
+            <td>@i.Guests.Count()</td>
+
+            @{ if (i.OwnerID == ViewBag.CreatorID)
+                {
+                    <td><a href="/Delete/Wedding/@i.WeddingID">Delete</a></td>
+
+                }
+                else if (i.Guests.Any(s => s.UserID == ViewBag.CreatorID))
+                {
+                    <td><a href="/UnRSVP/@i.WeddingID">UnRSVP</a></td>
+                }
+                else
+                {
+                    <td><a href="/RSVP/@i.WeddingID">RSVP</a></td>
+                }
+
+            }
+        </tr>
+            }
+    </tbody>
+</table>
+
+<div>
+    <button class="btn btn-warning m-3"><a href="/Create/newWedding">New Wedding</a></button>
+</div>
